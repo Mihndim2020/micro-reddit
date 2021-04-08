@@ -27,11 +27,11 @@ https://github.com/Mihndim2020/micro-reddit.git
 
 4. Execute `$ rails console` on the terminal and create your user, posts and comments directly from there;
 
-5. To create a new user, type new_user = User.new(username: "name of the user"), then you enter new_user.save to save to the database. 
+5. To create a new user, enter new_user = User.new(username: "name of the user"), then you enter new_user.save to save to the database. 
 
-6. To create a new post, type new_post = Post.new(title: "post title", content: "body of the post", user_id: id of the author), the type new_post.save and press enter to save the new post to the database.
+6. To create a new post, enter new_post = Post.new(title: "post title", content: "body of the post", user_id: id of the author), the type new_post.save and press enter to save the new post to the database.
 
-7. To create a comment, type new_comment = Comment.new(body: "body text", user_id: enter the user id, post_id: enter the post id), then type new_comment.save to save the new  comment to the database. 
+7. To create a comment, enter new_comment = Comment.new(body: "body text", user_id: enter the user id, post_id: enter the post id), then type new_comment.save to save the new  comment to the database. 
  
 ## Built With
 
